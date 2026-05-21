@@ -1,0 +1,7 @@
+﻿dataset/
+__pycache__/
+*.pyc
+*.npy
+*.pkl
+.DS_Store
+__MACOSX/
