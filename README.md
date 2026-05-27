@@ -1,6 +1,6 @@
 # SpectraGuard
 
-Official PyTorch implementation of **SpectraGuard: Multi-Scale Frequency-Domain Anomaly Detection with Shared Prototype Memory**.
+Official PyTorch implementation of **SpectraGuard:  Prototype-Conditioned Spectral Reconstruction for Time Series Anomaly Detection**.
 
 > SpectraGuard is a multi-scale frequency-domain anomaly detection framework that leverages shared prototype memory and channel similarity modulation (CSIM) to capture both local window semantics and global periodic patterns in time series data.
 
@@ -109,20 +109,7 @@ SpectraGuard/
 ├── run_all.sh                   # Run all datasets
 ├── requirements.txt
 └── README.md
-```
 
-## Citation
-
-If you find this work useful, please cite our paper:
-
-```bibtex
-@article{spectraguard2026,
-  title={SpectraGuard: Multi-Scale Frequency-Domain Anomaly Detection with Shared Prototype Memory},
-  author={Your Name and Co-authors},
-  journal={Conference/Journal Name},
-  year={2026}
-}
-```
 
 ## Acknowledgement
 
@@ -131,6 +118,4 @@ We appreciate the following repositories for their open-source contributions:
 - [Anomaly-Transformer](https://github.com/thuml/Anomaly-Transformer)
 - [FITS](https://github.com/VEWOXIC/FITS)
 
-## License
 
-This project is released under the MIT License.
